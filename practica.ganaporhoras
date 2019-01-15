@@ -1,0 +1,14 @@
+Algoritmo gana
+	horas<-0;
+	win<-115;
+	
+	
+	Escribir "¿Cuántas horas estás dispuesto a trabajar? ";
+	Leer horas;
+	Escribir "Las ganancias por hora son RD$115 pesos.";
+	resultado<-win*horas;
+	Escribir "Usted ganará por ", horas	
+	Escribir" la suma de: ", resultado; 
+	
+	Escribir "Gracias por solicitar MAsio por Maria, pase buenas. ";
+FinAlgoritmo

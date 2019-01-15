@@ -1,0 +1,13 @@
+Algoritmo Mayoredad
+	edad<-0;
+	Escribir "Digite su edad: ";
+	Leer edad;
+	Si edad<=18 Entonces
+		Escribir "You are illegal";
+	SiNo
+		Si edad>=18 Entonces
+			Escribir "You are older";
+		Fin Si
+	Fin Si
+	
+FinAlgoritmo

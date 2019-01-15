@@ -1,0 +1,10 @@
+Algoritmo asignacionv2
+	t<-0;
+	d<-0;
+	Escribir "Digite la distancia: "
+	Leer d;
+	Escribir "Digite el tiempo transcurrido: " 
+	Leer t;
+	v<-d/t;
+	Escribir "La velocidad será igual a: ", v;
+FinAlgoritmo

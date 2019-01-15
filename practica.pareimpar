@@ -1,0 +1,15 @@
+Algoritmo pareimpar
+	num1<-0;
+	Escribir "Digite un número: ";
+	Leer num1;
+	residuo<-num1 mod 2;
+	Si residuo = 1 Entonces
+		Escribir "Es impar";
+	SiNo
+		Si residuo = 0 Entonces
+			Escribir "Es par";
+		SiNo
+			Escribir "Un placer";
+		Fin Si
+	Fin Si
+FinAlgoritmo

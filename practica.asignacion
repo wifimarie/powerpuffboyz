@@ -1,0 +1,6 @@
+Algoritmo asignation
+	edad<-23;
+	Leer edad;
+	Escribir "Su edad es: ", edad;
+	
+FinAlgoritmo

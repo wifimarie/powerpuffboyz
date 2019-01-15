@@ -1,0 +1,7 @@
+Algoritmo areacuadrado
+	lado<-0
+	Escribir "Digite el valor del lado del cuadrado: ";
+	Leer lado;
+	area<-lado^2;
+	Escribir "El area del cuadrado será igual a: ", area "cm^2.";
+FinAlgoritmo

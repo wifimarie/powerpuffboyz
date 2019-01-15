@@ -1,0 +1,30 @@
+Algoritmo calc
+	num1<-0;
+	num2<-0;
+	tabla<-0;
+	Escribir "Bienvenidos a MACio la calculadora del nuevo mundo ¿Qué deseas calcular?";
+	Escribir "Digite un numero: ";
+	Leer num1;
+	Escribir "Digite otro numero: ";
+	Leer num2;
+	
+	Escribir " Seleccione 1. para Sumar ";
+	Escribir "Seleccione 2. para Restar ";
+	Leer tabla;
+	
+	suma<-num1+num2;
+	resta<-num1-num2;
+	
+	Si tabla=1 Entonces
+		Escribir "La suma sera igual a: ", suma;
+		Leer suma;
+	SiNo
+		Si tabla=2 Entonces
+			Escribir "La resta sera igual a: ", resta;
+			Leer resta;
+		SiNo
+			Escribir " ERROR 404";
+		Fin Si
+	Fin Si
+	
+FinAlgoritmo

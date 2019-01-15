@@ -1,0 +1,12 @@
+
+Algoritmo mientrastanto
+	edad<-0;
+	Escribir "Bienvenidos a MACio Club, para entrar debes ser mayor de edad, ¿Cuántos años tienes? ";
+	Leer edad;
+	
+	Mientras edad<18 
+		Escribir "Usted no puede entrar";
+		Leer edad;
+	Fin Mientras
+	
+FinAlgoritmo
