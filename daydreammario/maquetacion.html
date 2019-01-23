@@ -24,66 +24,52 @@
 </style>
 <body> 
     <!-- fondo de la pagina como es fluid cubre TODA LA PAGINA: slider es el nombre en sí del class-->
-<section class="container-fluid slider d-flex justify-content-center align-items-center"> <!-- es como una fila o row-->
+<section class="container-fluid slider d-flex justify-content-center align-items-center col-md-12"> <!-- es como una fila o row-->
 <h1 class="display-1 text-light">KULTURIZATE</h1> <!-- Titulo con display para usar menos css-->
 </section>
 
 <!-- barra de navegación o navbar-->
-<nav class="navbar navbar-dark bg-dark">
-<a class="navbar-brand" href="maquetacion.html"> <!-- enlace al pinchar en la imagen-->
-<img src="soju.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-                Kulturizate 
-              </a>
-              <!-- menu de opciones-->
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-item nav-link active" href="#">Home</a>
-                      <a class="nav-item nav-link" href="#">Features</a>
-                      <a class="nav-item nav-link" href="#">Pricing</a>
-                      <a class="nav-item nav-link disabled" href="#">Disabled</a>
-                    </div>
-                  </div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">
+        <img src="korea.jpg" alt="Pagina web" style="width:30px; height: 30px;"> Logo Web
+    </a>
+<!-- Links -->
+<!-- menu de opciones-->
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="maquetacion.html">Inicio</a>
+    </li>
+<li class="nav-item">
+        <a class="nav-link" href="maquetacion.html">Kultura</a>
+    </li>
+<li class="nav-item">
+    <a class="nav-link" href="maquetacion.html">Contacto</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="maquetacion.html">Q&A</a>
+</li>
 </nav>
 
-
-<section class="container"> <!-- contenedor de contenido-->
-<p class="mt-5 text-center font-weight-bold"> <!-- significa margin top con un valor de 5 max.-->
+<section class="container row align-items-between flex-row">
+    <!-- contenedor de contenido-->
+<p class="mt-5 text-center font-weight-bold col-12 col align-self-center">
+    <!-- significa margin top con un valor de 5 max.-->
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequuntur natus delectus!
 </p>
-<p class="bg-primary text-white p-5 text-justify">
+<p class="bg-primary text-white p-5 text-justify col-md-6 col align-self-start">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, similique. Dignissimos 
     aut iure incidunt nostrum.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, 
     similique. Dignissimos 
     aut iure incidunt nostrum.
 </p>
 <!-- fondo + color de texto + padding + texto justificado + ancho de 25% + floatleft + marginright valor de 4-->
-<p class="bg-warning text-white p-5 text-justify w-25 float-left mr-4">
+<p class="bg-warning text-white p-5 text-justify mr-4 col-md-5 col align-self-start">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, similique. Dignissimos 
         aut iure incidunt nostrum.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, 
         similique. Dignissimos 
         aut iure incidunt nostrum.
     </p>
-
-    <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, similique. Dignissimos 
-            aut iure incidunt nostrum.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, 
-            similique. Dignissimos 
-            aut iure incidunt nostrum.
-        </p>
-
-        <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, similique. Dignissimos 
-                aut iure incidunt nostrum.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, 
-                similique. Dignissimos 
-                aut iure incidunt nostrum.
-            </p>
-
-            <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, similique. Dignissimos 
-                    aut iure incidunt nostrum.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, 
-                    similique. Dignissimos 
-                    aut iure incidunt nostrum.
-                </p>
 </section>
+
 </body>
 </html>
