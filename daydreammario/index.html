@@ -1,163 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>mi documentacion sql</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.css" />
-    <script src="main.js"></script>
-    <style>
-        body {
-            text-align: justify;
-        }
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
-.list-group {
-    color: lightcoral;
-}
-#contenido {
-background: lightblue;
-}
- #menu a {
-     color: lightcoral;
- }
- table tr:hover {
-    background: lightcyan; 
-    color: lightcoral;
-}
-    </style>
+    <title>Dame estructura</title>
 </head>
+
 <body>
-    <div class="container">
-<h1 style="text-align: center; padding: 1.5em;">Mi Documentación SQL</h1>
-    <div class="row"> <!-- Fila -->
-    <div id="indice" class="col">
-     <h3 style="text-align: center;">Indice</h3>
-       <article id="menu"> 
-        <ul class="list-group" style="text-align: center;">
-        <li class="list-group-item"><a href="#dato">Dato</a>
-         <li class="list-group-item"><a href="#informacion">Informacion</a>
-        <li class="list-group-item"><a href="#basededatos">Base de datos</a>
-        <li class="list-group-item"><a href="#servidorbasededatos">Servidor de Datos</a>
-        <li class="list-group-item"><a href="#gestorbasededatos">Gestor de bases Datos</a>
-            </ul>
-       </article>
-    </div> <!-- Columna de indice-->
- <section id="contenido" class="col"><!-- Columna de contenido-->
-<h3 style="text-align: center;">Contenido</h3>
-<article id="_dato">
-<h6>Dato</h6>
-<p>
-    Son la representacion simbolica ya sea mediante numeros o letras de una recopilacion de 
-    informacion la cual puede ser cualitativa o cuantitativa.
-   <br> Se usan para proveer informacion <strong>pero</strong> por si solos no tienen sentido.
-</p>
-</article>
+    <!-- Esto es la cabecera-->
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="soju.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Mi página web
+            </a>
 
-<article id="_informacion">
-    <h6>Información</h6>
-    <p>
-        Son un conjunto de datos entrelazados mediante conectores para formar una idea o
-         definición.
-    </p>
-</article>
+        </nav>
+    </header>
 
-<article id="_basededatos">
-    <h6>Base de datos</h6>
-    <p>
-        Es un conjunto de datos entrelazados mediante conectores lingüísticos para formar una
-         idea o definición.
-    </p>
-</article>
 
-<article id="_servidorbasededatos">
-    <h6>Servidor de Base de Datos</h6>
-    <p>
-        Son los que se utilizan para los gestores de bases de datos y que varios usuarios hagan 
-        varias operaciones sobre ellas situados en lugares diferentes.
-        <br>
-        Se pueden acceder a ellas mediante terminales o equipos con un programa llamado cliente.
-    </p>
-</article>
+    <!-- Contenido principal de la pagina-->
+    <main>
+        <!-- Es la seccion-->
+        <section>
+            <!-- fila-->
+            <div class="row">
+                <!-- columnas-->
+                <div class="col-md-4">
+                    <!-- Columna 1-->
+                    <div class="card">
+                        <img src="korea.jpg" class="card-img-top" alt="...">
+                        <!-- Imagen dentro de card-->
+                        <div class="card-body">
+                            <h5 class="card-title"> Titulo</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et aliquam
+                                vel, iusto voluptate dicta officiis.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur facere neque
+                                consectetur, id dolorem voluptatibus.
+                            </p>
+                            <a class="btn btn-outline-info" href="maquetacion.html">Ir a Kulturizate</a>
+                        </div>
 
-<article id="_gestordebasededatos">
-    <h6>Gestor de Base de Datos</h6>
-    <p>
-        Son un conjunto de programas que manejan todo acceso a la base de datos con el objetivo
-         de servir de interfaz entre esta, el usuario y las aplicaciones utilizadas.
-    </p>
-</article>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- Columna 2-->
+                    <div class="card">
+                       <img src="love.jpg" class="card-img-top" alt="..."> 
+                       <div class="card-body">
+                            <!-- imagen dentro del body del card-->
+                            <h5 class="card-title"> Titulo</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                                quia sequi fugit autem reprehenderit
+                                provident commodi quo.
+                                Ipsa exercitationem sed dignissimos distinctio dolorem laboriosam vel.</p>
+                            <a class="btn btn-outline-info" href="maquetacion.html">Ir a Kulturizate</a>
+                        </div>
+                    </div>
+                </div>
 
-<article id="_esquemadebasededatos">
-    <h6>Esquema de Base de Datos</h6>
-    <p>Representa la configuración logica de todo o parte de una base de dato relacional. Puede
-         existir de dos formas: como representación visual y como un conjunto de formulas 
-         conocidas como restricciones, de integridad que controlan una base de datos.
-        <br>
-       Estas formulas se espresan en un lenguaje de definición de datos, tal como SQL
-        (Structured Query
-        Language).
-    </p>
-</article>
-<article id="_instancia">
-    <h6>Instancia</h6>
-    <p>
-<kbd> Documento</kbd> en el que se solicita oficialmente algo.
-    </p>
-</article>
+                <div class="col-md-4">
+                    <!-- Columna 3-->
+                    <div class="card">
+                        <img src="soju.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+<h5 class="card-title"> Titulo </h5><i class="fab fa-apple"></i>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+                                porro.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illum, reiciendis
+                                inventore maiores
+                                perferendis eius.
+                            </p>
+                            <a class="btn btn-outline-info" href="maquetacion.html">Ir a Kulturizate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- pie de pagina-->
+    <footer>
 
-<article id="_atributo">
-    <h6>Atributo</h6>
-    <p>
-        Características que describe a una <mark>entidad.</mark>
-    </p>
-</article>
-</section> 
-<div id="div3" class="col-3">
-<h3 style="text-align: center; padding: 1.5em;">Tablas BD</h3>
-                <table class="table table-hover table-bordered">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Nombre</th>
-                        <th>Edad</th>
-                    </tr>
-                    <tbody>
-                        <tr> <!-- filas-->
-                            <th>1</th> <!--columnas--> 
-                            <th>Marie</th>
-                            <th>18</th>
-                        </tr> 
-                        <tr>
-                            <th>2</th>
-                            <th>MArio</th>
-                            <th>18</th>
-
-                        </tr>
-                        <tr>
-                            <th>3</th>
-                            <th>Julio</th>
-                            <th>18</th>
-
-                        </tr>
-                        <tr>
-                            <th>4</th>
-                            <th>Jenny</th>
-                            <th>18</th>
-
-                        </tr>
-                        <tr>
-                            <th>5</th>
-                            <th>Stefan</th>
-                            <th>18</th>
-
-                        </tr>
-                    </tbody>
-                </thead>
-                </table>
-</div> <!-- Columna de barra lateral-->
-</div>
-</div>
-
+    </footer>
 </body>
+
 </html>
